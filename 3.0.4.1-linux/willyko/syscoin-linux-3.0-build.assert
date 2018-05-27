@@ -1,17 +1,17 @@
 --- !omap
 - out_manifest: |
-    a453ad744d767d802eac3ce4814d8967e96edbd814d72a88bd3f885e5a18db4e  src/syscoincore-3.0.4.tar.gz
-    f3c9b0132cba60918d4152eb2dca53549a5d51b20c0b45df60d43b8a2a90e25c  syscoincore-3.0.4-aarch64-linux-gnu-debug.tar.gz
-    6ddbf86515c88240a28e028844424477088360d322e85c86ffab65869e0b3f1e  syscoincore-3.0.4-aarch64-linux-gnu.tar.gz
-    c3b112002687e8bc4346c5483afb739edbe7321245e78e545600b20ae804f26b  syscoincore-3.0.4-arm-linux-gnueabihf-debug.tar.gz
-    fc0b137df45da8c04b78faa7f5d83d41d1571a55f1e50ed31f2ebc953c652d80  syscoincore-3.0.4-arm-linux-gnueabihf.tar.gz
-    3c59806b0e8a8f6eb517d1ae388c09f2ded9c2bfbcc40c0ba438e268f4d128d9  syscoincore-3.0.4-i686-pc-linux-gnu-debug.tar.gz
-    4e732088d6221c132848072af6cd00075aec19ab70893b500775075ca86de373  syscoincore-3.0.4-i686-pc-linux-gnu.tar.gz
-    1e20063caaab44529fa1d3a0fca50c36c33809e6af8b43223651677cf722fcd9  syscoincore-3.0.4-x86_64-linux-gnu-debug.tar.gz
-    c9554af39a8a6cfc406cfac312b0eb945c331f1ba1dd8c760f3486961a5d1425  syscoincore-3.0.4-x86_64-linux-gnu.tar.gz
+    f6dcfd404116a7d06e1d7002c616729ba382dd6b014b08044cef4cc5199662e8  src/syscoincore-3.0.4.tar.gz
+    bb800d33f9cd9f96473f49d03d654e3f3460f9f6dc6ee5d7937f570588fa9b47  syscoincore-3.0.4-aarch64-linux-gnu-debug.tar.gz
+    96c29b66ac792ea8e7ebbfcfc637bfc68c36a89c4aeaeab146a3a7837839d105  syscoincore-3.0.4-aarch64-linux-gnu.tar.gz
+    7395380665fa2612a5704b362fd44a62f7d7e75ca2d15e7a2ced6ac856dae6b3  syscoincore-3.0.4-arm-linux-gnueabihf-debug.tar.gz
+    d8f07a042c68d67eaf9c7f9ba78ec3736151981b3ac1742a9656584ad6f6209d  syscoincore-3.0.4-arm-linux-gnueabihf.tar.gz
+    b074145614b60f612a0ceae2df79f2a70c3ffbac936fdd46b77b4614e9948add  syscoincore-3.0.4-i686-pc-linux-gnu-debug.tar.gz
+    d78d984120a656c11c99f42137f951e8831d3a9e77ad5926ccead7308593a72f  syscoincore-3.0.4-i686-pc-linux-gnu.tar.gz
+    8973cb2c3eb9ef19c41ab21cb96d59a3980e6ffe65dcf95088c4313ba1e44650  syscoincore-3.0.4-x86_64-linux-gnu-debug.tar.gz
+    159d641157b62581e9a7d64ac4c18d461e0de6f5b6973295af635f4774d6a4ab  syscoincore-3.0.4-x86_64-linux-gnu.tar.gz
 - in_manifest: |-
     69b6342b332dfd1d0068cdfda738034586e3ef4f533c0f19549038e8f027e960  syscoin-linux-3.0-desc.yml
-    git:122ba6e5857aea159e6525737f5bf1a1c3d15a0a syscoin
+    git:208610320c4ce4c920e5b703689d161208dd38b9 syscoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -117,7 +117,7 @@
       1b039040096eff8b1094803d8313caf325cfee3a1699afe6374027cb35974e42  grep_2.16-1_amd64.deb
       bac82bdec3c79ba3522f3723b49ea09b5642f35a605385f38ae2d7047878028f  gzip_1.6-3ubuntu1_amd64.deb
       20947b04ab3ddf48d10e733432734065f0ee4fa5ac1469bf707f18b168bf57fa  hostname_3.15ubuntu1_amd64.deb
-      694a60bba0a8147b8835ca7e67c4099f401442ab57de1dcde63eef314621d2cf  ifupdown_0.7.47.2ubuntu4.4_amd64.deb
+      ee0b7b8e244b54201e1b96c723e541452dc9cb8c528106995f15e6ce469ed12e  ifupdown_0.7.47.2ubuntu4.5_amd64.deb
       61272a16ea205d4f3a90b17d933d51d8e27cf0fe1a10b31ac1d0029f14ed735a  ifupdown_0.7.47.2ubuntu4_amd64.deb
       b2de4721e6eafbf18db8ce4bb5c22a9014a06e88ec57151a52ca5f4f37133e17  init-system-helpers_1.14_all.deb
       a67ca65935220a63967d22112fe6d5d60cfaf11cc2058c3d80bc2b67f3b4ff54  init-system-helpers_1.14ubuntu1_all.deb
@@ -335,7 +335,7 @@
       ab4256aa7b304f1e4852c7f545024ee77ebd2f9fa58f1f277162ad991bd10003  libpng12-0_1.2.50-1ubuntu2_amd64.deb
       c60d9fed458d5fdaded1e7d1e18218b71308cb23a3b7f7043665ec9cb9560f0c  libpod-latex-perl_0.61-1_all.deb
       39568e2bbf8f85f7dc372e778ce2aaf8a2e902baf9c1c62eabdf06169c747719  libpopt0_1.16-8ubuntu1_amd64.deb
-      b50edf950ed09155c20372ece13e9bbce43706273e46f6fe503f10f4db8a1957  libprocps3_1%3a3.3.9-1ubuntu2.2_amd64.deb
+      67c55c910e235a3b4bb59de31de0b42f7ad85ac58e5ead80c1be35b16b37a321  libprocps3_1%3a3.3.9-1ubuntu2.3_amd64.deb
       3ce68d1e25cdad159d08c2c3eb5d5d7f1fa801d5258d7b9d111c9850fac6edc7  libprocps3_1%3a3.3.9-1ubuntu2_amd64.deb
       0ade86ace05a68c3df2c98a50ae67fb7035a2bd1fcb13aaf444a62f2fbcb3acb  libpython-stdlib_2.7.5-5ubuntu3_amd64.deb
       260078808e93ba8f642bce965319efc993b9865e3a6ba2f10ae478a252ad03ba  libpython2.7-minimal_2.7.6-8ubuntu0.4_amd64.deb
@@ -422,7 +422,7 @@
       3d26bdc4ff0de9c4451d8e782768a5688c3dbac7676318467f78f2a1e701afb3  linux-libc-dev-arm64-cross_3.13.0-12.32cross0.10_all.deb
       26bc3c1bfcaa158bed2e044eb90c1aa3d608129ce3c610cfa90202adc1b17732  linux-libc-dev-armel-cross_3.13.0-12.32cross1.104_all.deb
       327cfa8923b3a65988a1628d9dc620ed440d3fb89212a4a8a33ff7777d9cf4aa  linux-libc-dev-armhf-cross_3.13.0-12.32cross1.104_all.deb
-      e4783acc38cfa7de37ff48e71bee84c23cdc66c8c73dab1c40c0b93d300aa72a  linux-libc-dev_3.13.0-147.196_amd64.deb
+      5f2faa332552ae99294ddd5e62fe5689b7ab4d789a85f716b4a092acb76af7a2  linux-libc-dev_3.13.0-149.199_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
@@ -475,7 +475,7 @@
       6402dfbf3750549f4cdf4a20eca50e8ae01974b310e79cc4dd7663bb14ba878b  pkg-config_0.26-1ubuntu4_amd64.deb
       e2fa072ecb8bf28bed413d2f524f77768d47792a9214c8fc29935dbf4eb0051c  plymouth_0.8.8-0ubuntu17.1_amd64.deb
       dcb0772e4808d41f6142eb8d8497263ac297e807850eff6b1cbc1a42ea9eabbb  plymouth_0.8.8-0ubuntu17_amd64.deb
-      180178448e18299865a357159992ad82d4c1fbc4fe44cd4657104eb1a16460cf  procps_1%3a3.3.9-1ubuntu2.2_amd64.deb
+      96b7b50b0c377086f9d75f11e9511db56c6e71812e2451fddf46db8066a963ac  procps_1%3a3.3.9-1ubuntu2.3_amd64.deb
       8cbb9206812834010bba13bb6fa16fe877e6a646bee217a8d80fcfb3409fe1e8  procps_1%3a3.3.9-1ubuntu2_amd64.deb
       9725adb66d24fcf81823a92fb57585a5a8da9b15be3004d408afb8569b58a1cc  python-minimal_2.7.5-5ubuntu3_amd64.deb
       72ea4e3e3624a4d906ee57cbf36e17e16212771fa4cf800e6b5c5ea8c40e1bdf  python2.7-minimal_2.7.6-8ubuntu0.4_amd64.deb
