@@ -1,12 +1,12 @@
 --- !!omap
 - out_manifest: |
     f497855768377d99c2c11a779a1ba901efde7e89f38b87e8146e3cce34bb75f3  src/syscoincore-3.0.4.tar.gz
-    ff4396b76d0f803ebbbe20a8f41cec3c3f42720ba85bdac8af54f30ba346d683  syscoincore-3.0.4-osx-unsigned.dmg
-    844a56427d0f764c2e5c9ed0ba1f991f38fd034d9ca82ffcfac453a5aa1505cc  syscoincore-3.0.4-osx-unsigned.tar.gz
-    7fbada3d8d0cfa74342a527548bb1da13ffb54ab4fea08780094045a886c926e  syscoincore-3.0.4-osx64.tar.gz
+    2b30da3f5dcb7bf23bb311f85be9c7d620503562b9a52b8772ed15d8dae28bc8  syscoincore-3.0.4-osx-unsigned.dmg
+    1801af895445a863e166505cf164b20ae1021e76b906a21ffb91f0f5daffa39d  syscoincore-3.0.4-osx-unsigned.tar.gz
+    df0433b46e61f112c0145073cdf1606270b108a2993ec6a184e1934577fb2e6d  syscoincore-3.0.4-osx64.tar.gz
 - in_manifest: |-
     6af8abd465235ecbcbf0f94f0c769bab825d94b269a72af951392cfe67fe1956  syscoin-osx-3.0-desc.yml
-    f9b00df788c388c0009432f2e1fa22daed3e3fc124e7bb982f108f3061a337a4  MacOSX10.11.sdk.tar.gz
+    bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
     git:208610320c4ce4c920e5b703689d161208dd38b9 syscoin
 - base_manifests: !!omap
   - trusty-amd64: |
