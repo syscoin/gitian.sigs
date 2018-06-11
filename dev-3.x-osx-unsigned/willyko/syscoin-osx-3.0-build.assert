@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    a4b02f8ca9078841555db1bc4cc9ac21f5c0b98a1b41677069c42e38dd94b318  src/syscoincore-3.0.5.tar.gz
-    a0e2d223ad1b9f77884ed5d9949ac81f3350437a6d394d694ba16e3a4a5eb992  syscoincore-3.0.5-osx-unsigned.dmg
-    6b6754a595ba0e521ba52b8972ea50fdf565c4551a117636d2ee06de7a85a14e  syscoincore-3.0.5-osx-unsigned.tar.gz
-    56811d8d29419d8098f5e4d7835a6a48db40f699f9ec24f9bc721f44c72d200b  syscoincore-3.0.5-osx64.tar.gz
+    6ae53816a0759b29667c267a1f859e1ea10d5ed85cb15c059c1f75a6fb9da46a  src/syscoincore-3.0.5.tar.gz
+    3e012e0d0f6a544469d711e9c4321bee5f29d6fc4a356481da5823f2dac0d496  syscoincore-3.0.5-osx-unsigned.dmg
+    42b95ef48bbf397b26081079c9fafcb356e19bce1377fece12c2aafa21f68076  syscoincore-3.0.5-osx-unsigned.tar.gz
+    949fec3fb49145688442d9e1ce189d79ed7a8c9fdefd6387752ecf924db2902d  syscoincore-3.0.5-osx64.tar.gz
 - in_manifest: |-
     6af8abd465235ecbcbf0f94f0c769bab825d94b269a72af951392cfe67fe1956  syscoin-osx-3.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:752288e58e9609e791a84cce29ea0beef1ab6ee6 syscoin
+    git:3362592d7378558da36df2c9af70f4b789fac3e1 syscoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -426,7 +426,7 @@
       368157b36a2f83945929397a3532ec4ee6e3cb59338caae8b68190840ac781d3  libxrandr2_2%3a1.5.0-1~trusty1_amd64.deb
       64e1d395ae62765fb7bb701356b44225ddf840d4332331599b59451e4132effc  libxrender1_1%3a0.9.8-1build0.14.04.1_amd64.deb
       5af94dbfbf9d040c3193f31fff178b4615f68915e2ae6fe8725af05bbb58c433  libxtables10_1.4.21-1ubuntu1_amd64.deb
-      5f2faa332552ae99294ddd5e62fe5689b7ab4d789a85f716b4a092acb76af7a2  linux-libc-dev_3.13.0-149.199_amd64.deb
+      fdcc3763e33e19ac3c434287f26a56bf201b2c3314aff38a5baf6e95f464d05e  linux-libc-dev_3.13.0-151.201_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
