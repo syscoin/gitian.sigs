@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    76c26c00d110bbd224514c3a4d4f10ec7f2fcd95c907f70e4088ea3fd838815e  src/syscoincore-3.0.4.tar.gz
-    bcd3f3222dd8dd663ea22e647db2afc70d793d0750868b64e48610d79ff8bf6d  syscoincore-3.0.4-osx-unsigned.dmg
-    f259fcd33e33bf0680280023ace3cfc6458d41730cf9ff052a727b85e1445cac  syscoincore-3.0.4-osx-unsigned.tar.gz
-    aa286d41d01d4c8e7192ae5ee686f0326e4e562ffff8e01086ecd9d8f72c0edd  syscoincore-3.0.4-osx64.tar.gz
+    f497855768377d99c2c11a779a1ba901efde7e89f38b87e8146e3cce34bb75f3  src/syscoincore-3.0.4.tar.gz
+    2b30da3f5dcb7bf23bb311f85be9c7d620503562b9a52b8772ed15d8dae28bc8  syscoincore-3.0.4-osx-unsigned.dmg
+    1801af895445a863e166505cf164b20ae1021e76b906a21ffb91f0f5daffa39d  syscoincore-3.0.4-osx-unsigned.tar.gz
+    df0433b46e61f112c0145073cdf1606270b108a2993ec6a184e1934577fb2e6d  syscoincore-3.0.4-osx64.tar.gz
 - in_manifest: |-
     6af8abd465235ecbcbf0f94f0c769bab825d94b269a72af951392cfe67fe1956  syscoin-osx-3.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:122ba6e5857aea159e6525737f5bf1a1c3d15a0a syscoin
+    git:208610320c4ce4c920e5b703689d161208dd38b9 syscoin
 - base_manifests: !!omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -636,7 +636,7 @@
     d91ce1478e45f1709f7fb34c035c737be962e17ef7b8d3f130583789acaf61fa  x86_64-apple-darwin11/zeromq/zeromq-4.2.3-6f32f90e9c3.tar.gz.hash
     e97304dd07626095943813756e854d2545bd7827e327c6b4339813fc60b25ac1  x86_64-apple-darwin11/zlib/zlib-1.2.11-9750f6909fa.tar.gz
     2a7fd32379c406b143965c843f4eb2e905b40a091cd557a6ee01fa328de64a3b  x86_64-apple-darwin11/zlib/zlib-1.2.11-9750f6909fa.tar.gz.hash
-- release: 3.0.4-osx-unsigned
+- release: 3.0.4.1-osx-unsigned
 - name: syscoin-osx-3.0
 - type: build
 - optionals: 
