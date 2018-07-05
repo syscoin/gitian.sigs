@@ -1,17 +1,17 @@
 --- !omap
 - out_manifest: |
-    b3dcab108455d58796b2264d19d2a1c89b1b9dfd80d34d404783e893bc46c5e0  src/syscoincore-3.0.6.0.tar.gz
-    a61e7ee8ee06858e9ab5c5ae6acfd7b88bdf3b943c1618820c18a29ad62445c2  syscoincore-3.0.6.0-aarch64-linux-gnu-debug.tar.gz
-    dfe20620d70032505d493dd9655bd3763fd5415689b89f641ad08def6d953305  syscoincore-3.0.6.0-aarch64-linux-gnu.tar.gz
-    ded3a4c01a999e99bbb7cf337df74886959f270b529a835f68457cba4a049e3c  syscoincore-3.0.6.0-arm-linux-gnueabihf-debug.tar.gz
-    8b5760d1439464b01a4ff797118d003f5574a7ceb8858e50e7e5051828fa5bb5  syscoincore-3.0.6.0-arm-linux-gnueabihf.tar.gz
-    4df0cb94f2d19c0ffdffa4ba1c8e3705ba08265b0f2dff91ffb1899487d67e06  syscoincore-3.0.6.0-i686-pc-linux-gnu-debug.tar.gz
-    eefeb94b1bdc7157ff2c36fb16496be34982ea90d5b9080ff955df678e96ee21  syscoincore-3.0.6.0-i686-pc-linux-gnu.tar.gz
-    93f35ffda937c6b313d0c4550cccfac29cafcc42d575a8f505d9f49a9f546d28  syscoincore-3.0.6.0-x86_64-linux-gnu-debug.tar.gz
-    0774c7b065a1373c899f2a098e3a4ea5049b36ee2ae6e03ee4ab4fe9e3928b4b  syscoincore-3.0.6.0-x86_64-linux-gnu.tar.gz
+    bf427bafe56fd529331b54be4a37b2868c17e3ca07b1e487e8a7c166a8365a75  src/syscoincore-3.0.6.1.tar.gz
+    fd3cb667504ca9f80782ced306633fcb8449072195d95c02b493e03cf8332723  syscoincore-3.0.6.1-aarch64-linux-gnu-debug.tar.gz
+    beaac95fe508a42f4150696ed4bda636d4552c007da0dbbf29e518c1939c3a03  syscoincore-3.0.6.1-aarch64-linux-gnu.tar.gz
+    58dcc6f5be858e9ae2dbaebd941e49affc1f413cf222405f7c0d4c7313fe5d74  syscoincore-3.0.6.1-arm-linux-gnueabihf-debug.tar.gz
+    7410ed5967e53c0144fc553e0b09397693773c17bd9e6e0f3a1f82a4e1aa7a7f  syscoincore-3.0.6.1-arm-linux-gnueabihf.tar.gz
+    1b8d4b4bfc2e3661e083ac58e0ff179a0850b809f952167558a5e2601484288c  syscoincore-3.0.6.1-i686-pc-linux-gnu-debug.tar.gz
+    6fe860e80080af7cac61a5fa64aab0e7325bbf978ea5035c53c1a8d0d6370e1b  syscoincore-3.0.6.1-i686-pc-linux-gnu.tar.gz
+    e608d30dfe9b238b4122a6457032ecf795b3ac6056a3008691fb60a36de16e07  syscoincore-3.0.6.1-x86_64-linux-gnu-debug.tar.gz
+    1f97995da2b6197199085e30ceb4884d64d2e4e5226daf4fcb4f103330694a6d  syscoincore-3.0.6.1-x86_64-linux-gnu.tar.gz
 - in_manifest: |-
     69b6342b332dfd1d0068cdfda738034586e3ef4f533c0f19549038e8f027e960  syscoin-linux-3.0-desc.yml
-    git:33c0ab52d252db6fce113dd6b00bb0a9bd0b56ae syscoin
+    git:fa6bfe9726b6888654f40db0eeba751c45277598 syscoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
@@ -377,7 +377,7 @@
       edd482e586af852b92a1a26c0141fd4dd8959a0e59ce414f8a3ce360d7c4ef36  libsqlite3-0_3.8.2-1ubuntu2_amd64.deb
       0b5411e1a24c209d1dde53394714d01d6d67e61d8fc7c7e52df009045691dc31  libss2_1.42.9-3ubuntu1.3_amd64.deb
       d16fb7a71f3fc3f5c422e36251f113fc6d8e546f02366e6d9a2dc15a5a9be66a  libss2_1.42.9-3ubuntu1_amd64.deb
-      9b97be921a438627ec17e0d23d7d52ad35915c5b66f9b119814d4719b2137868  libssl1.0.0_1.0.1f-1ubuntu2.25_amd64.deb
+      e8df45be26d044b91717541d577f5cc065a00e432f57b25c9a781bd3c12ad5c5  libssl1.0.0_1.0.1f-1ubuntu2.26_amd64.deb
       000043f7e6da7992c5a78160e3c49bf6a811774086dbe2f5a6063ef5a093ff0d  libssl1.0.0_1.0.1f-1ubuntu2_amd64.deb
       5a3045bba01e9bff3e07d6889ec5ccbf59da8511e579abedb59b04b5cb1e6628  libstdc++-4.8-dev-arm64-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
       5d07fbe47aa378c0f94804be4de0f4d550e477d780e6007fa18c02e4d53c5a7a  libstdc++-4.8-dev-armhf-cross_4.8.4-2ubuntu1~14.04.1cross0.11.2_all.deb
@@ -422,7 +422,7 @@
       3d26bdc4ff0de9c4451d8e782768a5688c3dbac7676318467f78f2a1e701afb3  linux-libc-dev-arm64-cross_3.13.0-12.32cross0.10_all.deb
       26bc3c1bfcaa158bed2e044eb90c1aa3d608129ce3c610cfa90202adc1b17732  linux-libc-dev-armel-cross_3.13.0-12.32cross1.104_all.deb
       327cfa8923b3a65988a1628d9dc620ed440d3fb89212a4a8a33ff7777d9cf4aa  linux-libc-dev-armhf-cross_3.13.0-12.32cross1.104_all.deb
-      fdcc3763e33e19ac3c434287f26a56bf201b2c3314aff38a5baf6e95f464d05e  linux-libc-dev_3.13.0-151.201_amd64.deb
+      29596bd5fe7e56b03857e211068f64e54be2b3f6ef3f6bbfaa122393275d8a9f  linux-libc-dev_3.13.0-153.203_amd64.deb
       1a5d88e47eaeb28456e11449fd42244e7af7ccfc9d12a36ede2afb94d19f37d7  linux-libc-dev_3.13.0-24.46_amd64.deb
       998a5dfc01f07e24fe96321e2ce5a707ba1aef154c1cbacb2483722a0eee2df1  locales_2.13+git20120306-12.1_all.deb
       d78a27a94732ed1109754b72c4f1aa0d6fa81e595a18d62ef64fb7c6939f0871  locales_2.13+git20120306-12_all.deb
@@ -459,7 +459,7 @@
       2a8a27ca24e402f6d23ff730179812ee47cb067d1f3f82e627ec9bdcdeff1637  netcat-openbsd_1.105-7ubuntu1_amd64.deb
       8c1a0a507455f2f819b8874b9c2702df9544829259bd437cb8f7cab311047f9a  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.12_amd64.deb
       d3870e5e0fc0599ce330436566b82449db07aa82fe3ce4a653130ccbb5847a85  ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2_amd64.deb
-      5ac6adbcbf8c6fa17a3949b7970a16c0a8a3baaa02d70fbdc5ed780a06a33d64  openssl_1.0.1f-1ubuntu2.25_amd64.deb
+      ef469d9323f0634fb9211c0c007b699d0ca53619f1f23ade2796f2e3acaaee3d  openssl_1.0.1f-1ubuntu2.26_amd64.deb
       5e62317b9e984874c9ba8f8f7409d91957a3f88006f2f38c17560099f349e230  passwd_1%3a4.1.5.1-1ubuntu9.5_amd64.deb
       2c03f439990da1d02e5478c5261de7b5ee6de68052f99ca74df114ad7c135bae  passwd_1%3a4.1.5.1-1ubuntu9_amd64.deb
       a99d2cfac18163722a394c8d35909c1a94f90d12206fa4c0489042bbe514c3f8  patch_2.7.1-4_amd64.deb
