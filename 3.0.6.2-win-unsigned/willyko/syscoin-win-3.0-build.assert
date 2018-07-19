@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    3763f699c9f5d1cd93dffc58bed362e6ea7f9a6b2fdc2e04a33705bcd9a32116  src/syscoincore-3.0.6.2.tar.gz
-    9525a4ba7f6408d55aa90c4afc49ef69bd1b5067014368df1ee4b1cb9faa267b  syscoincore-3.0.6.2-win-unsigned.tar.gz
-    14e80933e39531887c1c40013d328e54f9df625eb225092385d1a43fcd0ce9fc  syscoincore-3.0.6.2-win32-debug.zip
-    1bb7fbd9b76a53d4d630c22fe1d16a46a891ae45b1efbd150cc04073519a1090  syscoincore-3.0.6.2-win32-setup-unsigned.exe
-    279888046431873c4592786fd8eb7f35b6bcc0eb0f035cce9bf36f674840f86c  syscoincore-3.0.6.2-win32.zip
-    452664411ab72796207049bd20de99e03398f10ab85ced460f6678a048e3c981  syscoincore-3.0.6.2-win64-debug.zip
-    34fb93a6a0ea83079187b6be2264b5fb7fa7c973949806a729ec905111778bbf  syscoincore-3.0.6.2-win64-setup-unsigned.exe
-    c63fbedcec24db38c23f016c7567e53bf85610a4054accc724c560b123c89822  syscoincore-3.0.6.2-win64.zip
+    17f99dd570275a356f89738399a71753d362673e5e3d6ca62215bb9eef9722b0  src/syscoincore-3.0.6.2.tar.gz
+    38c7b9bf051423f31c3f8d6392e30cd4e2d42c198fec8fdbf1eefb1af420cc11  syscoincore-3.0.6.2-win-unsigned.tar.gz
+    f486a15781d71488dbff6dbfdf6ec2bc153dfcf1f05f63af7e3a7ec976acb702  syscoincore-3.0.6.2-win32-debug.zip
+    939eed487d47f8c80d7913c98dfc4635b047de5e5312d8a7764d8d4b106b3d84  syscoincore-3.0.6.2-win32-setup-unsigned.exe
+    9ddcf5a6a07f094438ffd973039e2e6259cd044095aa90ea73bb0e57f337e514  syscoincore-3.0.6.2-win32.zip
+    f780aa1941f374d168072a3365bf79e0bfc9d7b145771e3e8e45a92be3f4c74a  syscoincore-3.0.6.2-win64-debug.zip
+    52a6fd87d7698564174733fef9787401a74487635a07ad5ce36a731cbd993c87  syscoincore-3.0.6.2-win64-setup-unsigned.exe
+    c5d3f01a862ca3fb599d0fd8cc3d7c2b6ed1d8fb88695c8c28568c354aa52b73  syscoincore-3.0.6.2-win64.zip
 - in_manifest: |-
     c369b01df38830e8fa357a3ddafbd9c67668398d43f8ac8aae073200a6bbcadd  syscoin-win-3.0-desc.yml
-    git:eab7e79845cd5e686edece3fd9ffd055bf82c1f4 syscoin
+    git:08720af44874b630a45aa829390c76053876e124 syscoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
