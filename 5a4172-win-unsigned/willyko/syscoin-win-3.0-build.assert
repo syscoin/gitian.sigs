@@ -1,12 +1,12 @@
 --- !omap
 - out_manifest: |
     1a47b2a0c0d8b907b170fa1cca55b1f9665de5466cb77f07a9dc169df406d93b  src/syscoincore-3.1.0.0.tar.gz
-    0aa1286b99cc8736ae61b6b91aa963d83388f4db08a2e6f9905ea632f5f73c12  syscoincore-3.1.0.0-win-unsigned.tar.gz
+    f7a8ffe58f596c74295c7dcadd6b343c92429c1714983e4ced654de556e75385  syscoincore-3.1.0.0-win-unsigned.tar.gz
     994e257c90e17d35733170e0bdcf69a142cad08c50ddc6842b59e25e44df6709  syscoincore-3.1.0.0-win32-debug.zip
-    d8b3dc32084ecc84a1f4701efb2cddc8acd1af79a977d3dcf599b9ae7d165515  syscoincore-3.1.0.0-win32-setup-unsigned.exe
+    ed4f5df31c17ce8351eac169e8793740a92aa3f4477855b66d189e2513fdd267  syscoincore-3.1.0.0-win32-setup-unsigned.exe
     40e0e5c0eee71c238e568348f65ec76213de0fb4348435f1d2b118f2009800cc  syscoincore-3.1.0.0-win32.zip
     94cad17211690752dbfd882e17b5f4d01c1b827bc81ee365db9c876641bed477  syscoincore-3.1.0.0-win64-debug.zip
-    5ea81925c29979a5e13fcf8ab7e9df0bd42a0e220dbbd02ed4770bdc1cd3a76b  syscoincore-3.1.0.0-win64-setup-unsigned.exe
+    4ed64b1b2cfd3cabb73fc26b00d5802269bf10910b5ddbdf2d2deb876c2ba092  syscoincore-3.1.0.0-win64-setup-unsigned.exe
     a62290cf5817ee3ed505d3acd89d2a5349c7a3c8b06145f6f8e13ba637e1a723  syscoincore-3.1.0.0-win64.zip
 - in_manifest: |-
     c369b01df38830e8fa357a3ddafbd9c67668398d43f8ac8aae073200a6bbcadd  syscoin-win-3.0-desc.yml
