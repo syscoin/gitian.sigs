@@ -1,17 +1,17 @@
 --- !omap
 - out_manifest: |
-    e311a2cd2553dc3980822fed7efc09e346497bd72d3b8f3ca6cbf86a5cc78dd5  src/syscoincore-3.1.1.0.tar.gz
-    d48fc1bc375e6c65c8515c23113d4eba4bf768fbd78b7449146dc98543562089  syscoincore-3.1.1.0-aarch64-linux-gnu-debug.tar.gz
-    6ecd72ad090268716f7dedd8b60fce2b81f3d1156d77d91e8729418f07df8b1f  syscoincore-3.1.1.0-aarch64-linux-gnu.tar.gz
-    c5134655cefc10c3f4478624ff14d63381bf4d07271ea565f70e8660fd2d5314  syscoincore-3.1.1.0-arm-linux-gnueabihf-debug.tar.gz
-    ca9dab84309d33366cd5366abb7d52fdbc853058e54fc8fec68a6210a811097c  syscoincore-3.1.1.0-arm-linux-gnueabihf.tar.gz
-    e61d7b00c4817821c7d7659af6bfff855980379a7b25335cc941c01b32439b25  syscoincore-3.1.1.0-i686-pc-linux-gnu-debug.tar.gz
-    c8d5baadf4786e646ef27c036b99dad28baea8de86177609c1d378b5fab3a5da  syscoincore-3.1.1.0-i686-pc-linux-gnu.tar.gz
-    bc550f5c250622b65532dc29433c0ab88486c51c4ac6adeeb612c9610275cb24  syscoincore-3.1.1.0-x86_64-linux-gnu-debug.tar.gz
-    0d0b22feb0d543268d9cd29b26506251b61e440bfdee09313a349c399185314f  syscoincore-3.1.1.0-x86_64-linux-gnu.tar.gz
+    b8beb874690a24dd5016353699716cc913d8c65f7825cf8659fbd1c40c4575b5  src/syscoincore-3.1.1.0.tar.gz
+    8bbb35413cd0bde7486d8a598549fa9b6afd68d8fe6fac67fa81eab7c10ad54f  syscoincore-3.1.1.0-aarch64-linux-gnu-debug.tar.gz
+    fdb449721f9d8c67eb0bdf0d50df36f46ed40a45c2285758dc3bd6b73b54e2e0  syscoincore-3.1.1.0-aarch64-linux-gnu.tar.gz
+    ca9c3ee29d97c1788837d309b3775562bb1d3f76c6cf8147d9efa64d8092ff69  syscoincore-3.1.1.0-arm-linux-gnueabihf-debug.tar.gz
+    dec2242077343749bd44926b5e7fa5f5240551b19652e970eef9fc21d6326460  syscoincore-3.1.1.0-arm-linux-gnueabihf.tar.gz
+    6a813ea17c191ba8d3cdf2d43bd3a21b67a293f1672f6e8e8dd952ffdc94b8d4  syscoincore-3.1.1.0-i686-pc-linux-gnu-debug.tar.gz
+    1bd9cc6a6257a679c6ae2b044770cc669b09d49503e468ced2a50886eb1cda41  syscoincore-3.1.1.0-i686-pc-linux-gnu.tar.gz
+    493d51e9f6a7b51b98934ee0a05fc61066573707e620c8b5d1602b310b214398  syscoincore-3.1.1.0-x86_64-linux-gnu-debug.tar.gz
+    db1c624230385ff28343287cfbced4c0a57f4eacfbaf829965322dbe001b27a0  syscoincore-3.1.1.0-x86_64-linux-gnu.tar.gz
 - in_manifest: |-
     69b6342b332dfd1d0068cdfda738034586e3ef4f533c0f19549038e8f027e960  syscoin-linux-3.0-desc.yml
-    git:a21f617dbb6fe17d9e685c0d7501f338cfac5dcc syscoin
+    git:21f8534953c44bc4ade0b8999decb69abc8ca4a0 syscoin
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

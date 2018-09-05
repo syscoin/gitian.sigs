@@ -1,10 +1,10 @@
 --- !omap
 - out_manifest: |
-    3a70f832a66648cb30b9f9db07990bf0a69aa56090295c11fd651c5e9356c849  syscoincore-osx-signed.dmg
+    ab8bcb5a0767a91c54c0e37d19691470cec64406b6c259084fc1fe875d2f267a  syscoincore-osx-signed.dmg
 - in_manifest: |-
     505e2438b19df46770616628327a6623eca5b82b7bf4b886a42f32f3b8d113b0  syscoin-dmg-signer-desc.yml
-    ef1724d20d76abe17fdc8b35dafed7c421b37f52dfdfa8b6964d413b67fd60b2  syscoincore-osx-unsigned.tar.gz
-    git:14a27e9e6854a461fb34d5da8ef54d156ed4616b signature
+    3bd43a4bcc47f23ccf3825565d46637a244f779845d892b64775f5d7b702072c  syscoincore-osx-unsigned.tar.gz
+    git:3d33e00777a5f70b403ab4a9f261e30a73667caf signature
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
