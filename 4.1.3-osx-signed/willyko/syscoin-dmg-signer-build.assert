@@ -1,11 +1,11 @@
 --- !!omap
-- out_manifest: '865ed491ebb6a7c5e5d36cade99b785d88725e9531f369b7e06ec4d7aabd75b8  syscoin-osx-signed.dmg
+- out_manifest: '5a9b333b11f19582abcba229507ee2c9dcd5a6b133d4bde2bae7ca9454a68127  syscoin-osx-signed.dmg
 
 '
 - in_manifest: |-
     d1af140962c84d01952517e7fb6e1732605010724aab4046e6fa7380a343f92c  syscoin-dmg-signer-desc.yml
-    e40b5d609bef6f60b20e32da51d729c237fcea1355a11fa7d3380e13bf47b6d8  syscoin-osx-unsigned.tar.gz
-    git:01e6fc218f83242a41c661f9a43460c5c0b54cc6 signature
+    122f516f840111eb36b9dd082346022f160222342f6fb1fb215b3f82f3bd1216  syscoin-osx-unsigned.tar.gz
+    git:f098c16e5b9eb5a3622c6570eafa3e3fff162945 signature
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

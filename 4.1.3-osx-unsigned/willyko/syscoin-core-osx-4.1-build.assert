@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    98a98a1f9944ed9ea4128119291208427d4d6a6114e792204d3157cac1f478fa  src/syscoin-4.1.3.tar.gz
-    3f3ca7baabda9d7f7508ffa6033142cc17341598fd8dd4373873b4b0a9ea2890  syscoin-4.1.3-osx-unsigned.dmg
-    e40b5d609bef6f60b20e32da51d729c237fcea1355a11fa7d3380e13bf47b6d8  syscoin-4.1.3-osx-unsigned.tar.gz
-    a20186fa0721f69be4360d98fe922b7b04abf9dbce1135e3875c34f41894ee65  syscoin-4.1.3-osx64.tar.gz
+    d044e12f7bbb33b003019e4b98ecc3822caea66c2068cb997c0a9afa47741bd3  src/syscoin-4.1.3.tar.gz
+    1c8ec15d6ac4412082ca79d8bfae098ab0d7f518f7ec64994311dee6a78be825  syscoin-4.1.3-osx-unsigned.dmg
+    122f516f840111eb36b9dd082346022f160222342f6fb1fb215b3f82f3bd1216  syscoin-4.1.3-osx-unsigned.tar.gz
+    77f8fcece0c5b9e67bd63ec041c1a73132119407a29ae799e650189b231e642b  syscoin-4.1.3-osx64.tar.gz
 - in_manifest: |-
     58013e9a5ca1557b2c61d61c6d658b4d397573e86c759000fc8ca4c78d96e8d0  syscoin-core-osx-4.1-desc.yml
     328aff47e28c17093d59a72712a9b2e62cd8a8b87bbe03f91abb32960b413f0f  MacOSX10.14.sdk.tar.gz
-    git:06a36202efa439afad7c56fbe846aaf22e38e098 syscoin
+    git:c56a9e7fca1bb187746f068e0405cb6be2ea6512 syscoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -726,34 +726,34 @@
     f5d8ffd09398c297a90ea7ac3b863568d12ac563d5772f3628d6ee6dff12737a  x86_64-apple-darwin14/zlib/zlib-1.2.11-dbe5d26fe3b.tar.gz.hash
     0be45659d4fd98f820ef373150a56e4d99c22f520b2437fb17bb42b6d51eebca  x86_64-apple-darwin14/zlib/zlib-1.2.11-f5c622957d1.tar.gz
     6a216327cbf66cdff2428a7c96190c2fb280af6d9a730b09dd139192c873a611  x86_64-apple-darwin14/zlib/zlib-1.2.11-f5c622957d1.tar.gz.hash
-    1f47d304d1481df980b4147b825b6e7c1913a624681468f51adfc0aaf4551392  x86_64-apple-darwin16/bdb/bdb-4.8.30-8ec927027fb.tar.gz
-    770ff09ead43b41ee58ad93596ffff39e450e80e1fc74de3ee3245ae715f5c72  x86_64-apple-darwin16/bdb/bdb-4.8.30-8ec927027fb.tar.gz.hash
-    56e5c9caba6ef19b2dc7f8f90237855402fa929e766726677051fb78579af5c6  x86_64-apple-darwin16/boost/boost-1_70_0-5faae21223f.tar.gz
-    9ba47f5aee6e0b1b565a95b18f445681a89ecba0d8edef753be31eeec390380a  x86_64-apple-darwin16/boost/boost-1_70_0-5faae21223f.tar.gz.hash
-    fe6fe63553a0da7d9b461214422efd9a19e6e0b8e9afc9f2b4b523a3795275c3  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-3eb8307f9a6.tar.gz
-    ae890daa57f7651fff1601e4ff9277b4b789a1d2b1121a7fa154491c83a33085  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-3eb8307f9a6.tar.gz.hash
-    1ae0a0c5371719294771be4174dac4fa4e7b3f690a4f7abf63a5f4876e78d78d  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-956764db79a.tar.gz
-    9d68b8edef2de6b2e9620dd430d1185398585a429a63c46baafe8a0e0c01a4c8  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-956764db79a.tar.gz.hash
-    6c9eff397e24db978ab9141f3bad57d57d6e979cd7dc8378a2d176fc5f944bb6  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-014f067e770.tar.gz
-    25782551122d0084dda02c8183425788134482708e22ccfd750d5255b5d28a75  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-014f067e770.tar.gz.hash
-    91b436f62ad703da7e477bd9bbcc56788df413e1e7e590ba13bc66d9d8072a86  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-98f62b8d834.tar.gz
-    d36072a7c0df602f047a7722481cd88aaafb3a6b2365fbac10a13fffc00813b0  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-98f62b8d834.tar.gz.hash
-    fa4f16e0c4d173e83b5648debdf5bb576fe9c2f5a1a685653d558bf2b129c5be  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-199bf4f500e.tar.gz
-    e9a812118254a46b2b33c01ad06c41272b8865e0fad942220af3119125af0346  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-199bf4f500e.tar.gz.hash
-    d6cef24ec760a5af1e089e6699d1f7d85648d4479347790d66660920fc7643ed  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-6ab0f20b440.tar.gz
-    ace3630a581a9c4f1306c15e952aefb8e110f598aaf086a1c4a86eba7fa54347  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-6ab0f20b440.tar.gz.hash
-    1258e4ad17d7cef134d5d2dcae15ca9fe7ea67274c48c0b9a72fd4d59bc0e527  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-7461076b519.tar.gz
-    59ca810d7375f8be90828200a725f1a30c1bd0e4a764a82cc3f64e47a6196616  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-7461076b519.tar.gz.hash
-    a2c29e1fd4dff11c98ca9344514bda982144fe250ce23c64191010fb7d769cd0  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-c541901b585.tar.gz
-    8126a9e9e3e45a35db988ead11a2d4406c57889da3f1b4b96e8f10580ae9ea21  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-c541901b585.tar.gz.hash
-    c0adc66656795de4959651ea76cf67ce281756b8ddc06652f8110d393435afbe  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-7d905a033c9.tar.gz
-    d7afb2c515b86c75cf818a5b28bfd09e6c27929dad8c5ea590ab25044b47860a  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-7d905a033c9.tar.gz.hash
-    8296120a6ab76c4562707c439c42827d710079ce7fd563901636f70d86068697  x86_64-apple-darwin16/qt/qt-5.9.8-349c2d9af22.tar.gz
-    de70b93246d8ca05afb710bf0600e89ed291136b526f568f037f372fe23e0367  x86_64-apple-darwin16/qt/qt-5.9.8-349c2d9af22.tar.gz.hash
-    053678ed83cceace017713abbd90ae91e1a29fe8d46ed2c52e284cc3648c78b0  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-08570bfafff.tar.gz
-    7d2850ae099dc2214869bff42a77e3873a2cef1efab412990039d99bb7124d70  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-08570bfafff.tar.gz.hash
-    a9ca37132d80a88fd674e0656021062482ad9919b3f56699a6b3963261979d21  x86_64-apple-darwin16/zlib/zlib-1.2.11-f1dfcd899db.tar.gz
-    ecc697ca7c9ae89d7057f422e3c137b528f46482093b41bcc4f7a69198b990bb  x86_64-apple-darwin16/zlib/zlib-1.2.11-f1dfcd899db.tar.gz.hash
+    ee74890b1928c5e633c4f14be223adc170a47dca9957a051699c2f66fbda41ca  x86_64-apple-darwin16/bdb/bdb-4.8.30-8ec927027fb.tar.gz
+    b61135d8cdf21c198abe352704c6cd8d2bfcda7757d8ea1d25c122da749acc7d  x86_64-apple-darwin16/bdb/bdb-4.8.30-8ec927027fb.tar.gz.hash
+    92712d2b5a2383d0b9e5bd814f1978e513344161c6d4516ea1cea1b781f998f6  x86_64-apple-darwin16/boost/boost-1_70_0-5faae21223f.tar.gz
+    52d545e302c37e28825fe60d6967886d76442452e721f4ed30046b43f4ae0d29  x86_64-apple-darwin16/boost/boost-1_70_0-5faae21223f.tar.gz.hash
+    8dbbc8dc4039fbae91e0b40b2642b81260a32a3de86d06b6194f97854a3442c6  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-3eb8307f9a6.tar.gz
+    955e1c79af3717ebc8d0c324b7d44c5649c415f8dee9ed27e9c3984c1422b1ce  x86_64-apple-darwin16/libevent/libevent-2.1.11-stable-3eb8307f9a6.tar.gz.hash
+    f879f8ca6c3a6024824621f60fb28246823e11a5b49b9d3ef0a5977b1574748d  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-956764db79a.tar.gz
+    925784e4274cc9135e162de5668d8a3ced568176410733d53704b378e2c2428b  x86_64-apple-darwin16/miniupnpc/miniupnpc-2.0.20180203-956764db79a.tar.gz.hash
+    c7711d698b26f987f2a5f5c18a93aac22e8de79b766d79859d3e398f17274bb8  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-014f067e770.tar.gz
+    aaa28caf0a3b0bda49c50090eb4b5a36352e488b03382fa5040d7f2e36057ac0  x86_64-apple-darwin16/native_biplist/native_biplist-1.0.3-014f067e770.tar.gz.hash
+    128a7876ea8a9bbbcaf7015be272f130d1e4e7778b2a7d9b822301d85087edf5  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-98f62b8d834.tar.gz
+    98bbfd742059995000cb24f1609736beab90fb3a524d331a3762c8dc2f00de3a  x86_64-apple-darwin16/native_cctools/native_cctools-3764b223c011574971ee3ae09ce968ba5dc2f00f-98f62b8d834.tar.gz.hash
+    f28e2bda4b97c78a379c2223ab51901ec6f84a42baf6b0b3918f72200121f9ec  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-199bf4f500e.tar.gz
+    36dac771de3463d19554a74d45ef4b50a693e8ff7c8841972c4830b32a03a4db  x86_64-apple-darwin16/native_cdrkit/native_cdrkit-1.1.11-199bf4f500e.tar.gz.hash
+    d97a0cdcafacf320939290bb2ab743deac15778191876cabe0da76e82c6a671f  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-6ab0f20b440.tar.gz
+    08cc26c13274399eb70421e2e29f9439368cd3e37cf282b01ea6b6b0538c5d93  x86_64-apple-darwin16/native_ds_store/native_ds_store-1.1.2-6ab0f20b440.tar.gz.hash
+    42fe38137b5a0480756e5049baafab9684e0e11a89ffe58dc67170881e012105  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-7461076b519.tar.gz
+    280fa28bdc5217ea18bc9be5442aa98382538bb8745675fda81533622662ada7  x86_64-apple-darwin16/native_libdmg-hfsplus/native_libdmg-hfsplus-7ac55ec64c96f7800d9818ce64c79670e7f02b67-7461076b519.tar.gz.hash
+    2a03dfddadbaa19b1818f9ffbfecfdfe995ce9f013a3088da2c00b8278dc0c6e  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-c541901b585.tar.gz
+    240648ec1eb3ca99effefab79e7e1c70a0c491934e43d9567d07a2aa2037a44e  x86_64-apple-darwin16/native_mac_alias/native_mac_alias-2.0.7-c541901b585.tar.gz.hash
+    0beafd5b0c9939fb037b33c054a373dfc8f8af253941e5bdf1e45a0e0c484d21  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-7d905a033c9.tar.gz
+    9fc3489ba3254c5244d12717fa83835b56c6a9765102eb1a26f547cf1945b8fb  x86_64-apple-darwin16/qrencode/qrencode-3.4.4-7d905a033c9.tar.gz.hash
+    1874c2fc32c604713f5b9bfc953d515c8d106378e555f760b780c63e2d683650  x86_64-apple-darwin16/qt/qt-5.9.8-349c2d9af22.tar.gz
+    3bb2cc0d259c07fa58996687fdf49b0dcbdc7438235eae18f41a5a0ee05df074  x86_64-apple-darwin16/qt/qt-5.9.8-349c2d9af22.tar.gz.hash
+    53527a2adee32d5d7e103e11684e3521477834fa68dd7b8dcf4cd53578bed76c  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-08570bfafff.tar.gz
+    071d2093e24029e81df47969c6b66005fd7c587368b50672c199954c2452f906  x86_64-apple-darwin16/zeromq/zeromq-4.3.1-08570bfafff.tar.gz.hash
+    9a9fdb0aea2b213720e129e0f9944e814b3ac73ba40cd9191ef13ae72ce7a7f9  x86_64-apple-darwin16/zlib/zlib-1.2.11-f1dfcd899db.tar.gz
+    2f36ad3d90d9018ae690e589bc36f5263527299cbe12f674b3c378cca1b960f1  x86_64-apple-darwin16/zlib/zlib-1.2.11-f1dfcd899db.tar.gz.hash
 - release: 4.1.3-osx-unsigned
 - name: syscoin-core-osx-4.1
 - type: build
